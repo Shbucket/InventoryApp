@@ -176,6 +176,11 @@ export default function Home(props) {
               fullWidth
               value={itemName}
               onChange={(e) => setItemName(e.target.value)}
+               sx={{
+                input:{
+                  color:'black'
+                }
+              }}
             />
             <Button
               variant="outlined"
