@@ -36,7 +36,7 @@ const style = {
   flexDirection: "column",
   gap: 3,
   input:{
-    color: "white"
+    color: "black"
   }
 };
 
